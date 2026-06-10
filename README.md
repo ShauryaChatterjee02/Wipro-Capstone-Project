@@ -1,1 +1,3 @@
 # TestAutomationHybridFramework
+A robust Hybrid Test Automation Framework developed using Selenium WebDriver, TestNG, Java, Maven, and Jenkins following the Page Object Model (POM) design pattern.
+This framework automates multiple web UI functionalities on the Test Automation Practice application, covering form validation, alerts, dropdowns, drag-and-drop operations, file handling, web tables, navigation flows, and advanced browser interactions. The project incorporates data-driven testing using Excel, detailed reporting through Extent Reports, centralized logging with Log4j2, and automated browser management using WebDriverManager.
