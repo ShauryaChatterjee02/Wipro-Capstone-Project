@@ -118,3 +118,24 @@ TestAutomationHybridFramework/
 ├── pom.xml
 └── testng.xml
 ```
+## ▶️ Running Tests
+
+Execute the complete automation suite:
+
+```bash
+mvn test
+```
+
+Execute tests using the TestNG suite configuration:
+
+```bash
+mvn test -DsuiteXmlFile=testng.xml
+```
+
+Execute an individual test class:
+
+```bash
+mvn test -Dtest=AlertTest
+```
+
+The framework leverages `testng.xml` for centralized test execution and integrates `TestListener` for reporting, logging, and test lifecycle management.
