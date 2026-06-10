@@ -118,7 +118,7 @@ TestAutomationHybridFramework/
 ├── pom.xml
 └── testng.xml
 ```
-## ▶️ Running Tests
+# Running Tests
 
 Execute the complete automation suite:
 
