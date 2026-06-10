@@ -19,7 +19,7 @@ This framework automates multiple web UI functionalities on the Test Automation 
 
 This project is a Hybrid Test Automation Framework built using Selenium WebDriver, TestNG, Java, and Maven. It follows the Page Object Model (POM) design pattern and incorporates Data-Driven Testing, Extent Reports, Log4j2 logging, WebDriverManager, and Jenkins CI/CD integration to deliver a scalable, maintainable, and industry-standard automation solution.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology         | Purpose                         |
 | ------------------ | ------------------------------- |
