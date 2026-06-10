@@ -180,7 +180,7 @@ Artifact Archiving
 Build Status
 ```
 # Extent Report
-
+<img width="1918" height="906" alt="Screenshot 2026-06-10 204656" src="https://github.com/user-attachments/assets/6786c529-376a-4d6d-95a3-37774aba31a1" />
 
 # Author
 
@@ -194,4 +194,6 @@ Build Status
 * Data-Driven Testing using Apache POI and Excel
 * Jenkins CI/CD for Automated Build and Test Execution
 * Extent Reports and Log4j2 for Reporting and Logging
+
+
 
