@@ -179,9 +179,9 @@ Artifact Archiving
       ↓
 Build Status
 ```
-### Author
+# Author
 
-**Shaurya Chattopadhyay**
+## Shaurya Chattopadhyay**
 
 ### Automation Concepts Used
 
