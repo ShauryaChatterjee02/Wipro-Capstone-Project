@@ -140,7 +140,54 @@ mvn test -Dtest=AlertTest
 
 The framework leverages `testng.xml` for centralized test execution and integrates `TestListener` for reporting, logging, and test lifecycle management.
 
-# Framework Screenshots
+# Screenshots
 ## Jenkins Pipeline
 <img width="1904" height="986" alt="Screenshot 2026-06-10 195401" src="https://github.com/user-attachments/assets/5b4a1199-d1ac-4a5d-8a75-a4e5bc51c67e" />
 
+# Jenkins Console
+<img width="1918" height="988" alt="Screenshot 2026-06-10 200115" src="https://github.com/user-attachments/assets/e7a4d2d2-1b61-42ba-a900-e8dfecc38814" />
+
+# Date Picker
+<img width="1544" height="506" alt="Screenshot 2026-06-10 200440" src="https://github.com/user-attachments/assets/775b0c02-d2e7-4725-b636-f610b20b04ce" />
+<img width="1899" height="979" alt="Screenshot 2026-06-10 200340" src="https://github.com/user-attachments/assets/49b07e79-d144-4973-9512-d74d5ab90b50" />
+
+# Multiple File Upload
+<img width="1897" height="947" alt="Screenshot 2026-06-10 200650" src="https://github.com/user-attachments/assets/c452fd97-c6d7-4d80-aafb-d8dadac96d65" />
+<img width="1542" height="460" alt="Screenshot 2026-06-10 200619" src="https://github.com/user-attachments/assets/6b21a4cc-3b42-486a-9569-0ebfd33e76a1" />
+
+# AutomationSuite Test Execution Summary
+<img width="1536" height="497" alt="Screenshot 2026-06-10 201411" src="https://github.com/user-attachments/assets/ad301bee-ee34-412c-9c30-3e0d88f4a4e4" />
+
+# CI/CD Workflow
+
+```text id="0if0zm"
+GitHub Push
+      ↓
+Jenkins Pipeline
+      ↓
+Source Code Checkout
+      ↓
+Maven Build
+      ↓
+TestNG Test Execution
+      ↓
+Extent Report Generation
+      ↓
+TestNG Report Publishing
+      ↓
+Artifact Archiving
+      ↓
+Build Status
+```
+## Author
+
+**Shaurya Chattopadhyay**
+
+### Automation Concepts Used
+
+* Selenium WebDriver for Web UI Automation
+* TestNG for Test Execution and Reporting
+* Page Object Model (POM) for Maintainable Test Design
+* Data-Driven Testing using Apache POI and Excel
+* Jenkins CI/CD for Automated Build and Test Execution
+* Extent Reports and Log4j2 for Reporting and Logging
