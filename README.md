@@ -179,6 +179,9 @@ Artifact Archiving
       ↓
 Build Status
 ```
+# Extent Report
+
+
 # Author
 
 ## Shaurya Chattopadhyay
@@ -191,3 +194,4 @@ Build Status
 * Data-Driven Testing using Apache POI and Excel
 * Jenkins CI/CD for Automated Build and Test Execution
 * Extent Reports and Log4j2 for Reporting and Logging
+
