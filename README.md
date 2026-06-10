@@ -139,3 +139,6 @@ mvn test -Dtest=AlertTest
 ```
 
 The framework leverages `testng.xml` for centralized test execution and integrates `TestListener` for reporting, logging, and test lifecycle management.
+
+## Framework Screenshots
+### Jenkins Dashboard
