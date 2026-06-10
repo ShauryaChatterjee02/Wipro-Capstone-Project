@@ -179,7 +179,7 @@ Artifact Archiving
       ↓
 Build Status
 ```
-## Author
+### Author
 
 **Shaurya Chattopadhyay**
 
