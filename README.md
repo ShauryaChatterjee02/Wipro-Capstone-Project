@@ -14,3 +14,5 @@ This framework automates multiple web UI functionalities on the Test Automation 
 * Reusable Utility Classes for Waits, Screenshots, and JavaScript Actions
 * Jenkins CI/CD Pipeline Integration for Automated Execution
 * Scalable, Maintainable, and Industry-Standard Framework Design
+
+## Project Overview This framework demonstrates a **hybrid automation approach** combining: - **Page Object Model (POM)** for maintainable test structure - **Data-Driven Testing** using Apache POI (Excel) and TestNG @DataProvider - **Extent Reports** for rich HTML test reporting - **Log4j2** for structured logging - **WebDriverManager** for automatic browser driver management - **Jenkins pipeline** for CI/CD execution
