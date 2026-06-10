@@ -15,4 +15,7 @@ This framework automates multiple web UI functionalities on the Test Automation 
 * Jenkins CI/CD Pipeline Integration for Automated Execution
 * Scalable, Maintainable, and Industry-Standard Framework Design
 
-## Project Overview This framework demonstrates a **hybrid automation approach** combining: - **Page Object Model (POM)** for maintainable test structure - **Data-Driven Testing** using Apache POI (Excel) and TestNG @DataProvider - **Extent Reports** for rich HTML test reporting - **Log4j2** for structured logging - **WebDriverManager** for automatic browser driver management - **Jenkins pipeline** for CI/CD execution
+## Project Overview
+
+This project is a Hybrid Test Automation Framework built using Selenium WebDriver, TestNG, Java, and Maven. It follows the Page Object Model (POM) design pattern and incorporates Data-Driven Testing, Extent Reports, Log4j2 logging, WebDriverManager, and Jenkins CI/CD integration to deliver a scalable, maintainable, and industry-standard automation solution.
+
