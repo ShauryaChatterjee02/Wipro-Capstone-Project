@@ -15,7 +15,7 @@ This framework automates multiple web UI functionalities on the Test Automation 
 * Jenkins CI/CD Pipeline Integration for Automated Execution
 * Scalable, Maintainable, and Industry-Standard Framework Design
 
-## Project Overview
+# Project Overview
 
 This project is a Hybrid Test Automation Framework built using Selenium WebDriver, TestNG, Java, and Maven. It follows the Page Object Model (POM) design pattern and incorporates Data-Driven Testing, Extent Reports, Log4j2 logging, WebDriverManager, and Jenkins CI/CD integration to deliver a scalable, maintainable, and industry-standard automation solution.
 
@@ -32,3 +32,89 @@ This project is a Hybrid Test Automation Framework built using Selenium WebDrive
 | Extent Reports     | HTML Test Reporting             |
 | Log4j2             | Logging & Debugging             |
 | Jenkins            | CI/CD Pipeline Automation       |
+
+# Project Structure
+
+```text
+TestAutomationHybridFramework/
+│
+├── src/
+│   ├── test/
+│   │   ├── java/
+│   │   │   ├── Base/
+│   │   │   │   └── BaseTest.java
+│   │   │   │
+│   │   │   ├── Listeners/
+│   │   │   │   └── TestListener.java
+│   │   │   │
+│   │   │   ├── Pages/
+│   │   │   │   ├── AlertPage.java
+│   │   │   │   ├── DatePickerPage.java
+│   │   │   │   ├── DoubleClickPage.java
+│   │   │   │   ├── DownloadFilesPage.java
+│   │   │   │   ├── DragDropPage.java
+│   │   │   │   ├── DropDownPage.java
+│   │   │   │   ├── DynamicButtonPage.java
+│   │   │   │   ├── FooterPage.java
+│   │   │   │   ├── FormPage.java
+│   │   │   │   ├── HiddenAjaxPage.java
+│   │   │   │   ├── LabelsAndLinksPage.java
+│   │   │   │   ├── MouseHoverPage.java
+│   │   │   │   ├── NavigationPage.java
+│   │   │   │   ├── PaginationWebTablePage.java
+│   │   │   │   ├── ShadowDomPage.java
+│   │   │   │   ├── SliderPage.java
+│   │   │   │   ├── SvgPage.java
+│   │   │   │   ├── TablePage.java
+│   │   │   │   ├── TabsPage.java
+│   │   │   │   └── UploadPage.java
+│   │   │   │
+│   │   │   ├── Tests/
+│   │   │   │   ├── AlertTest.java
+│   │   │   │   ├── DatePickerTest.java
+│   │   │   │   ├── DoubleClickTest.java
+│   │   │   │   ├── DownloadFilesTest.java
+│   │   │   │   ├── DragDropTest.java
+│   │   │   │   ├── DropDownTest.java
+│   │   │   │   ├── DynamicButtonTest.java
+│   │   │   │   ├── FooterTest.java
+│   │   │   │   ├── FormTest.java
+│   │   │   │   ├── HiddenAjaxTest.java
+│   │   │   │   ├── LabelsAndLinksTest.java
+│   │   │   │   ├── MouseHoverTest.java
+│   │   │   │   ├── NavigationTest.java
+│   │   │   │   ├── PaginationWebTableTest.java
+│   │   │   │   ├── ShadowDomTest.java
+│   │   │   │   ├── SliderTest.java
+│   │   │   │   ├── SvgTest.java
+│   │   │   │   ├── TableTest.java
+│   │   │   │   ├── TabsTest.java
+│   │   │   │   └── UploadTest.java
+│   │   │   │
+│   │   │   ├── Utilities/
+│   │   │   └── TestData/
+│   │
+│   └── resources/
+│       ├── config.properties
+│       ├── FormData.xlsx
+│       ├── log4j2.xml
+│       ├── sample.txt
+│       ├── sample1.txt
+│       └── sample2.txt
+│
+├── reports/
+│   └── ExtentReport_*.html
+│
+├── Screenshots/
+│   └── Failed Test Screenshots
+│
+├── logs/
+│   └── automation.log
+│
+├── test-output/
+│   └── TestNG Reports
+│
+├── Jenkinsfile
+├── pom.xml
+└── testng.xml
+```
