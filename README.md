@@ -181,7 +181,7 @@ Build Status
 ```
 # Author
 
-## Shaurya Chattopadhyay**
+## Shaurya Chattopadhyay
 
 ### Automation Concepts Used
 
