@@ -158,6 +158,39 @@ The framework leverages `testng.xml` for centralized test execution and integrat
 # AutomationSuite Test Execution Summary
 <img width="1536" height="497" alt="Screenshot 2026-06-10 201411" src="https://github.com/user-attachments/assets/ad301bee-ee34-412c-9c30-3e0d88f4a4e4" />
 
+## 🧪 Test Suite Organization
+
+```text
+Your 20 Automation Tests
+
+├── Smoke Suite (Critical Tests)
+│
+│   ├── NavigationTest          → Verify application accessibility
+│   ├── FormTest                → Validate form submission
+│   ├── AlertTest               → Verify alert and popup handling
+│   ├── DropDownTest            → Validate dropdown functionality
+│   └── LabelsAndLinksTest      → Verify links and navigation
+│
+└── Regression Suite (Complete Coverage)
+    │
+    ├── Smoke Suite Tests
+    ├── MouseHoverTest          → Mouse interactions
+    ├── DoubleClickTest         → Double-click actions
+    ├── DragDropTest            → Drag and drop operations
+    ├── SliderTest              → Slider functionality
+    ├── TabsTest                → Tab navigation
+    ├── TableTest               → Web table validation
+    ├── PaginationWebTableTest  → Paginated table handling
+    ├── DatePickerTest          → Date selection
+    ├── UploadTest              → File upload validation
+    ├── DownloadFilesTest       → File download verification
+    ├── HiddenAjaxTest          → AJAX element handling
+    ├── DynamicButtonTest       → Dynamic element validation
+    ├── ShadowDomTest           → Shadow DOM interaction
+    ├── SvgTest                 → SVG element automation
+    └── FooterTest              → Footer links verification
+```
+
 # CI/CD Workflow
 
 ```text id="0if0zm"
