@@ -158,7 +158,7 @@ The framework leverages `testng.xml` for centralized test execution and integrat
 # AutomationSuite Test Execution Summary
 <img width="1536" height="497" alt="Screenshot 2026-06-10 201411" src="https://github.com/user-attachments/assets/ad301bee-ee34-412c-9c30-3e0d88f4a4e4" />
 
-## 🧪 Test Suite Organization
+# Test Suite Organization
 
 ```text
 Your 20 Automation Tests
